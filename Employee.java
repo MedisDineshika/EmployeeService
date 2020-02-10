@@ -41,6 +41,34 @@ public class Employee {
 		this.marks = marks;
 	}
 
+public static List<Employee> getAllEmployees(List<Employee> employees){
+		
+		
+		
+		Employee emp1 = new Employee();
+		emp1.setName("nimal");
+		emp1.setMarks(35);
+		
+			
+		Employee emp2 = new Employee();
+		emp2.setName("Sema");
+		emp2.setMarks(45);
+		employees.add(0, emp1);
+		employees.add(1, emp2);
+		
+		
+		
+		return empolyees ;
+		
+		
+	
+	
+	
+		
+		
+		
+	
 
+}
 	
 }
